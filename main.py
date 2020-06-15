@@ -33,14 +33,7 @@ def construct_links():
 
 
 config = {
-    "apiKey": "AIzaSyDpTntWIWJCG-oMvm9MgystgdsO4DLdwoE",
-    "authDomain": "question-list-a4a77.firebaseapp.com",
-    "databaseURL": "https://question-list-a4a77.firebaseio.com",
-    "projectId": "question-list-a4a77",
-    "storageBucket": "question-list-a4a77.appspot.com",
-    "messagingSenderId": "728809510469",
-    "appId": "1:728809510469:web:a5052cdc624428f720352c",
-    "serviceAccount": "./question-list-a4a77-firebase-adminsdk-df3uw-45c741493f.json",
+  #config here
 }
 cred = credentials.ApplicationDefault()
 app = firebase_admin.initialize_app(cred, config)
